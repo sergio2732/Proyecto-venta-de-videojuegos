@@ -1,0 +1,55 @@
+*{
+    padding: 5px;
+    margin: 10px;
+}
+h1, h2, h3, p{
+    color: white;
+}
+img{
+    height: 700px;
+    width: 500px;
+    float: left;
+}
+p{
+    text-align: left;
+    vertical-align: text-top;
+}
+button{
+    display: inline-block;
+    padding: 0%;
+    text-align: center;
+    background-color: transparent;
+    border: #ffff;
+    border-radius: 20px;
+    color: #a47070;
+    text-decoration: underline;
+    font-size: large;
+    cursor: pointer;
+    cursor: hand;
+}
+i{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+@font-face {
+    font-family: "arkhip";
+    src: url("../fonts/Arkhip-Regular.otf");
+}
+body{
+    font-family: "arkhip";
+    background-image: url(../assets/fondo\ doom1.jpeg);
+    background-size: 100% 100%;
+}
+#precio{
+    text-align: right;
+}
+#compra{
+    position: absolute;
+    right: 15%;
+}
+#reclamo{
+    position: absolute;
+    right: 5%;
+}
